@@ -1,0 +1,52 @@
+# Colors Learning Module Configuration
+# Config-driven learning content for toddler color recognition
+
+# Learning configuration
+config:
+  repeat_count: 3  # Number of times to repeat each color before moving to next
+  module_name: "Colors"
+  description: "Learn primary and secondary colors"
+
+# Learning items
+items:
+  - name: "Red"
+    color: [255, 0, 0]
+    description: "Red like an apple"
+  
+  - name: "Blue"
+    color: [0, 0, 255]
+    description: "Blue like the sky"
+  
+  - name: "Green"
+    color: [0, 255, 0]
+    description: "Green like grass"
+  
+  - name: "Yellow"
+    color: [255, 255, 0]
+    description: "Yellow like the sun"
+  
+  - name: "Orange"
+    color: [255, 165, 0]
+    description: "Orange like an orange"
+  
+  - name: "Purple"
+    color: [128, 0, 128]
+    description: "Purple like grapes"
+  
+  - name: "Pink"
+    color: [255, 192, 203]
+    description: "Pink like a flower"
+  
+  - name: "Brown"
+    color: [139, 69, 19]
+    description: "Brown like chocolate"
+
+# Display settings
+display:
+  fullscreen: true
+  window_width: 1024
+  window_height: 768
+  background_color: [245, 245, 245]  # Light gray
+  text_color: [50, 50, 50]  # Dark gray
+  circle_border_width: 5
+

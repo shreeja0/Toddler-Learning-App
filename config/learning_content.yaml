@@ -1,0 +1,59 @@
+# Learning Content Configuration
+# This file defines all learning modules and their content
+
+modules:
+  colors:
+    display_name: "Colors"
+    repeat_count: 3  # Number of times to repeat each item before moving to next
+    items:
+      - name: "Red"
+        color: [255, 0, 0]
+        audio_hint: "This is red!"
+      
+      - name: "Blue"
+        color: [0, 0, 255]
+        audio_hint: "This is blue!"
+      
+      - name: "Green"
+        color: [0, 255, 0]
+        audio_hint: "This is green!"
+      
+      - name: "Yellow"
+        color: [255, 255, 0]
+        audio_hint: "This is yellow!"
+      
+      - name: "Orange"
+        color: [255, 165, 0]
+        audio_hint: "This is orange!"
+      
+      - name: "Purple"
+        color: [128, 0, 128]
+        audio_hint: "This is purple!"
+
+  # Future modules (extensible design)
+  # animals:
+  #   display_name: "Animals"
+  #   repeat_count: 2
+  #   items:
+  #     - name: "Dog"
+  #       image_path: "assets/dog.png"
+  #       audio_hint: "This is a dog!"
+  
+  # numbers:
+  #   display_name: "Numbers"
+  #   repeat_count: 4
+  #   items:
+  #     - name: "One"
+  #       value: 1
+  #       audio_hint: "This is number one!"
+
+# App Settings
+settings:
+  default_module: "colors"
+  fullscreen: true
+  window_width: 1024
+  window_height: 768
+  background_color: [245, 245, 245]  # Light gray
+  text_color: [50, 50, 50]  # Dark gray
+  font_size: 72
+
